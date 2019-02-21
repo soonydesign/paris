@@ -1,0 +1,5 @@
+// product.js
+
+(function ($) {
+  
+})(jQuery);

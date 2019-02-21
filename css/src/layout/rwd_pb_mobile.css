@@ -1,0 +1,60 @@
+ /* mobile 480 .css   */
+#headBox.active{background-color:rgba(255,255,255,1);}
+@media screen and (max-width: 480px) {
+#headBox{width: 100%; height:65px; color:#ff0;}
+.gnb{background-color: #16428c;}
+.gnb_mu>li{ border-bottom: 1px solid #628acd; box-sizing: border-box;  }
+.gnb_mu>li>a{/*color:#fff;*/ color:inherit; }
+.gnb_mu{padding: 30px; box-sizing: border-box;  }
+.gnb_lnb li{background-color: #16428c;border-bottom: 1px solid #fff; }
+
+
+#sectBox01{ width: 100%; height: 625px;}
+.se01_banner h3{font-size: 25pt}
+.se01_banner p{font-size:15pt}
+  
+
+#sectBox02{ height: 644px /*134.17vw*/;background-color: #15418b; }
+  .hoBox02{ width: 100%; /*height:134.17px;*/}
+  .hoBox02>div{ width: 100%; height:100%; text-align: center; }
+ .ho_ti{width: 100%;height: 134px;background-image: url("../../../img/sb480_st02/sectBox_tit.png");}
+ 
+ .ho_bg{width: 100%;height: /*510/480*100px*/ 106.25vw; background-image: url("../../../img/sb480_st02/sectBox02_con.png"); background-repeat: no-repeat;  background-size:100% auto ;}
+
+
+#sectBox03{ height:620px; }
+
+.pro_bg>ul>li{float:none;width: 100%;}
+.pro_bg>ul>li:nth-child(2){display: none}
+.pro_bg>ul>li:nth-child(3){display: none}
+
+
+
+#sectBox04{ height: 169.17vw; /*128.75*/}
+  /*.quickBox04{ box-sizing: border-box; width: 100%; height: 134px;}*/
+  /*.quick_ti{margin: auto; width: 80%;height: 5.63vw;/*27/480*100*/}
+  .quick_list{margin: auto; margin-top: 30px;}
+  .quick_list>ul{padding-left: 9%; width: 100%;height:125.42vw ;/*602/480*100*/  /*background-color: #d8d89a;*/ }
+  .quick_list>ul>li{float:left; width: 35.83vw;/* 172/480*100 */height:35.83vw;margin-right: 4.38vw; /*21/480*100*/margin-bottom:4.28vw ;  box-sizing: border-box; text-align: center;}
+  .quick_list>ul>li>a{display: block; width:100% ;height:100%;}
+  .quick_list>ul>li>a>img{ width:100% ;height:auto;}
+ /* .quick_list>ul>li:nth-child(2n){margin-right: 0;}*/
+  .quick_list>ul>li:nth-child(5),
+  .quick_list>ul>li:nth-child(6){margin-bottom: 0;}
+
+
+
+/*   #sectBox05   ========*/
+  
+/*  #sectBox06{  height: auto; }   */
+
+
+
+#footBox{height: 300px;}
+ #footBox address{padding:12px 13px 0;}
+  .addBox{height: 300px;}
+  
+
+
+
+/*  //end mobile 480 .css  */

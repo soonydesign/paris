@@ -1,0 +1,131 @@
+/*  csv_common.css */
+
+.brand_bg{padding-top:130px; box-sizing: border-box;  width: 100%;height: 370px;background-color: #acd;}
+.brand_bg>h3{text-align: center;font-size: 34pt; font-weight: bold; transform: translateY(100%); color: #16428c;}
+.brand_bg>h3>p{font-size: 12pt; color: #333  }
+
+.pb_menu{width: 100%;height: 76px;border-top:1px solid #15418b; border-bottom: 1px solid #15418b; box-sizing: border-box;}
+.pb_menu>dl{margin: auto; width: 100%;height: 100%;}
+.pb_menu>dl>dt{position: relative; width: 100%;height: 76px; border-bottom: 1px solid #15418b; box-sizing: border-box; background-color: #fff;  font-size: 26pt;font-weight: bold; text-transform: uppercase; line-height: 76px; text-indent: 10px; }
+.pb_menu dt>a{display: block; width: 100%;height: 100%;}
+
+.pb_menu dl:hover > dd{display: block;}
+
+.pb_menu dd{margin: auto; width:100%; height: 100%; }
+.pb_menu ul{position: absolute;width: 100%;height: auto; transform: translateY(calc(-120% -76px) ); background-color: #fff;}
+.pb_menu ul>li{padding: 1rem 0 0 1rem; width: 100%; height: 40px;  font-size: 20px; text-transform: uppercase;font-weight: bold; }
+
+.pb_menu li>a{width: 100%;height: auto;}
+.pb_menu li:hover,
+.pb_menu li:focus{ background-color: #15418b;}
+
+
+.pb_spc{width: 100%; height: auto;min-height: 3000px;}
+.pb_spc>div{padding-top: 30px; box-sizing: border-box; width: 100%;height:auto; background-color: #ededed;}
+.pb_spc dl{margin:auto; width: 100%;height: auto; background-color: #ededed;}
+
+.pb_spc dl>dt{ margin: auto; width:414px;height: 50px;font-size: 14pt; font-weight: bold; letter-spacing:-0.1rem; background-color: #fff; line-height: 50px; text-indent: 10px;}
+.pb_spc dl>dd{padding : 10px; box-sizing: border-box;  margin: auto; width:414px;height: auto; background-color: #fff; }
+.csv_img{ width:100%;height: auto; }
+.pb_spc div>p{padding-top:18px; box-sizing: border-box; font-size: 1.1rem;text-align: center; line-height:40px; color: #16428c; font-weight: bold;}
+.pb_spc div>p>strong{ font-size: 2rem; line-height: 4rem; }
+.pb_spc div>p>span:nth-of-type(1){display: block; line-height: 1.5rem; font-size: 1.1rem; }
+.pb_spc div>p>.s_dot:before{content:open-quote; font-size: 30pt  }
+.pb_spc div>p>.s_dot:after{content:close-quote; font-size: 30pt  }
+.pb_spc div>p>span:nth-of-type(2){display: block; padding-top: 2rem; display: block; padding-top:20px; font-weight: normal; line-height:24px;}
+.pb_spc div>p:nth-of-type(2){padding-top:5rem; font-size: 40pt; font-weight: normal;}
+
+
+.pb_spc .csv_line{background-color: #fff;}
+
+
+.pb_spc .csv_line>dt{  width: 100%;height: 60px;background-color: #fff; font-size: 22pt;font-weight: bold;text-align: center;  }
+.pb_spc .spc_01>dd{margin: auto; width: 100%;height: 520px;background-image: url("../../../img/sectBox480/brand/csv_spcbg.png");background-repeat: no-repeat; }
+
+
+
+
+.fd_bs>dd>span{margin-bottom: 20px; display: block; width: 100%;height: 430px; background-image: url("../../../img/sectBox480/brand/csv_contBox02_bg .png"); background-repeat: no-repeat;background-position-x: 50% ;}
+.fd_bs>dd>span>p{width: 87%;}
+
+
+
+.img_box01{ width: 100%;height: 196px;background-image: url("../../../img/sectBox480/brand/csv_contBox03_bg.png"); background-repeat: no-repeat;background-position-x: 50%;}
+
+
+.img_box02{ width: 100%;height: 295px;background-image: url("../../../img/sectBox480/brand/csv_contBox04_bg.png"); background-repeat: no-repeat;background-position-x: 50%;}
+
+.img_box03{ width: 100%;height:249px;background-image: url("../../../img/sectBox480/brand/csv_contBox05_bg.png"); background-repeat: no-repeat;background-position-x: 50%;
+}
+
+.img_box04{ width: 100%;height:249px;background-image: url("../../../img/sectBox480/brand/csv_contBox06_bg.png"); background-repeat: no-repeat;background-position-x: 50%;
+}
+.img_box05{ width: 100%;height:249px;background-image: url("../../../img/sectBox480/brand/csv_contBox07_bg.png"); background-repeat: no-repeat;background-position-x: 50%;
+}
+
+/* csv_480 */
+@media screen and (max-width: 480px) {
+.brand_bg{background-image: url("../../../img/sectBox480/brand/contentBox.png");}
+
+.pb_menu dd{display: none;}
+.pb_menu dt:hover .pb_view{display: block}
+
+
+
+
+
+
+
+}
+
+/*  csv_768 */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+.pb_menu dd{display: none;}
+.brand_bg{background-image: url("../../../img/sectBox768/brand/contentBox.png");}
+.img_box01{width: 720px;height: 197px;background-image: url("../../../img/sectBox480/brand/csv_contBox03_bg.png"); background-repeat: no-repeat;background-position-x: 50%; 
+background-size:cover;}
+
+.pb_spc dl>dt{ width: 720px;}
+.pb_spc dl>dd{ width: 720px; }
+
+.pb_spc .spc_01>dd{ background-image: url("../../../img/sectBox1920/brand/csv_contBox01.png");background-repeat: no-repeat;}
+
+
+}
+/*  csv_1366 */
+@media screen and (min-width: 769px) and (max-width: 1366px) {
+ 
+
+.brand_bg{background-image: url("../../../img/sectBox1366/brand/contentBox.png"); background-repeat: no-repeat; background-size:auto 100%  ;}
+ .pb_menu>dl>dt{display: none}
+ .pb_menu>dl>dd{margin: auto; width: 90%;height: auto; }
+ .pb_menu ul{margin: auto; width: 80%; height: 74px;}
+ .pb_menu ul>li{float: left;padding: 0; width: calc(100%/3); height: 100%;  text-align: center; line-height: 74px }
+ .pb_menu ul>li.active {background-color: #15418b; color:#fff;}
+
+
+.spc_01>dd{height: 448px;background-image: url("../../../img/sectBox1366/brand/csv_spcbg.png");background-repeat: no-repeat;}
+
+.pb_spc .spc_01>dd{ background-image: url("../../../img/sectBox1920/brand/csv_contBox01.png");background-repeat: no-repeat;}
+
+
+
+}
+/*  csv_pcfull*/
+@media screen and (min-width: 1367px) {
+ .pb_menu>dl>dt{display: none}
+ .pb_menu>dl>dd{margin: auto; width: 90%;height: auto; }
+ .pb_menu ul{margin: auto; width: 80%; height: 74px;}
+ .pb_menu ul>li{float: left;padding: 0;  width: calc(100%/3);height: 100%;  text-align: center; line-height: 74px }
+ .pb_menu ul>li.active>a{display:block; width: 100%;height: 100%;text-align: center; background-color: #15418b; color:#fff;}
+ .brand_bg{background-image: url("../../../img/sectBox1366/brand/contentBox.png");}
+
+
+
+.pb_spc .spc_01>dd{height: 448px;background-image: url("../../../img/sectBox1920/brand/csv_contBox01.png");background-repeat: no-repeat;}
+
+
+}
+
+
+
