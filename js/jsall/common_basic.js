@@ -4,8 +4,16 @@
   var allUrl='./all/';
   var head=$('head');
    
+var  headTit = head.is('title');
+// console.log('title' , headTit);
+var title = '파리바게뜨';
 
-head.append('<title>파리바게뜨</title>');
+if(!headTit){
+  head.append('<title>'+title+'</title>');
+}else{
+  head.find('title').text(title);
+}
+
 wrap.prepend('<header id="headBox"></header>');
 wrap.append('<footer id="footBox"></footer>');
 
